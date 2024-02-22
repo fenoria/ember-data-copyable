@@ -231,7 +231,7 @@ export default Mixin.create({
           attrs[name] = value;
         }
       } else if (meta.kind === 'hasMany') {
-        const firstObject = value.get('firstObject');
+        const firstObject = value[0];
 
         if (firstObject && firstObject.get(IS_COPYABLE)) {
           attrs[name] = yield all(
