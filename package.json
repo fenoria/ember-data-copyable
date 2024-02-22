@@ -9,15 +9,15 @@
     "clone",
     "ember-data"
   ],
-  "repository": "https://github.com/offirgolan/ember-data-copyable",
+  "repository": "https://github.com/fenoria/ember-data-copyable",
   "license": "MIT",
   "author": "Offir Golan <offirgolan@gmail.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "bugs": "https://github.com/offirgolan/ember-data-copyable/issues",
-  "homepage": "https://github.com/offirgolan/ember-data-copyable",
+  "bugs": "https://github.com/fenoria/ember-data-copyable/issues",
+  "homepage": "https://github.com/fenoria/ember-data-copyable",
   "scripts": {
     "build": "ember build --environment=production",
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel \"lint:!(fix)\"",
